@@ -1,3 +1,3 @@
 # Meu Portfólio 
 
-Acesse em: portfolio-green-phi.vercel.app
+Acesse em: https://portfolio-green-phi.vercel.app/
