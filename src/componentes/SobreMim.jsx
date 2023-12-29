@@ -25,7 +25,7 @@ function SobreMim() {
                                 <li>Região: São Paulo - SP</li>
                                 <li>Contato: bryancesar34@gmail.com</li>
                             </ul>
-                            <a href="https://www.mediafire.com/file/umbbjt81rrrdoxu/CURR%25C3%258DCULO_BRYAN_FRONT_END.pdf/file" className="curriculo">
+                            <a href="https://www.mediafire.com/file/umbbjt81rrrdoxu/CURR%25C3%258DCULO_BRYAN_FRONT_END.pdf/file" target="_blank" rel="noreferrer" className="curriculo">
                                 <img src={download} alt="downloadCurriculo" />
                                 <p>Download CV</p>
                             </a>
