@@ -60,6 +60,11 @@ img {
   align-items: center;
   flex-wrap: nowrap;
   cursor: pointer;
+  color: white;
+}
+
+.navLink:hover {
+  color: white;
 }
 
 .navList span {
@@ -125,7 +130,7 @@ img {
   padding: 0.3rem;
 }
 
-.hiddenBarNav li {
+.hiddenBarNav a {
   border-radius: 0.2rem;
   font-size: 1.2rem;
   font-weight: 500;
@@ -135,7 +140,7 @@ img {
   cursor: pointer;
 }
 
-.hiddenBarNav li:hover {
+.hiddenBarNav a:hover {
   user-select: none;
   background-color: rgb(62, 62, 62);
 }

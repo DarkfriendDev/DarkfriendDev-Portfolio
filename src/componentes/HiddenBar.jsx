@@ -5,9 +5,6 @@ import tecIcon from '../assets/nav-icons/tecIcon.png'
 import projectIcon from '../assets/nav-icons/projectIcon.png'
 
 function HiddenBar() {
-    const sobreSession = document.querySelector('.sobreMim')
-    const tecSession = document.querySelector('.tecnologias')
-    const projetosSession = document.querySelector('.projetos')
 
     const hiddenBarDesactive = () => {
         const hiddenBar = document.querySelector('.hiddenBar')
@@ -25,34 +22,31 @@ function HiddenBar() {
                     <img src={closeMenu} alt="closeMenu" />
                 </button>
                 <ul className="hiddenBarNav">
-                    <li className='navLink navInicio' onClick={() => {
+                    <a className='navLink navInicio' onClick={() => {
                         hiddenBarDesactive()
                         window.scrollTo(0,0)
                     }}>
                         <img src={homeIcon} alt="Inicio"/>
                         <span>Início</span>
-                    </li>
-                    <li className='navLink navSobre' onClick={() => {
+                    </a>
+                    <a href="#sobreMim" className='navLink navSobre' onClick={() => {
                         hiddenBarDesactive()
-                        window.scrollTo(0, sobreSession.offsetTop - 20)
                     }}>
                         <img src={aboutIcon} alt="Inicio"/>
                         <span>Sobre Mim</span>
-                    </li>
-                    <li className='navLink navTec' onClick={() => {
+                    </a>
+                    <a href="#tecnologias" className='navLink navTec' onClick={() => {
                         hiddenBarDesactive()
-                        window.scrollTo(0, tecSession.offsetTop - 20)
                     }}>
                         <img src={tecIcon} alt="Inicio"/>
                         <span>Tecnologias</span>
-                    </li>
-                    <li className='navLink navProjetos' onClick={() => {
+                    </a>
+                    <a href="#projetos" className='navLink navProjetos' onClick={() => {
                         hiddenBarDesactive()
-                        window.scrollTo(0, projetosSession.offsetTop - 20)
                     }}>
                         <img src={projectIcon} alt="Inicio"/>
                         <span>Projetos</span>
-                    </li>
+                    </a>
                 </ul>
             </div>
         </>

@@ -11,9 +11,6 @@ import projectIcon from '../assets/nav-icons/projectIcon.png'
 
 
 function Nav() {
-    const sobreSession = document.querySelector('.sobreMim')
-    const tecSession = document.querySelector('.tecnologias')
-    const projetosSession = document.querySelector('.projetos')
 
     const hiddenBarActive = () => {
         const hiddenBar = document.querySelector('.hiddenBar')
@@ -28,30 +25,22 @@ function Nav() {
                     <img src={menu} alt="menuHamburguer" />
                 </button>
                 <ul className="navList">
-                    <li className='navLink navInicio' onClick={() => {
-                        window.scrollTo(0,0)
-                    }}>
+                    <a href="#header" className='navLink navInicio' onClick={() => window.scrollTo(0,0)}>
                         <img src={homeIcon} alt="Inicio"/>
                         <span>Início</span>
-                    </li>
-                    <li className='navLink navSobre' onClick={() => {
-                        window.scrollTo(0, sobreSession.offsetTop - 20)
-                    }}>
+                    </a>
+                    <a href="#sobreMim" className='navLink navSobre'>
                         <img src={aboutIcon} alt="Inicio"/>
                         <span>Sobre Mim</span>
-                    </li>
-                    <li className='navLink navTec' onClick={() => {
-                        window.scrollTo(0, tecSession.offsetTop - 20)
-                    }}>
+                    </a>
+                    <a href="#tecnologias" className='navLink navTec'>
                         <img src={tecIcon} alt="Inicio"/>
                         <span>Tecnologias</span>
-                    </li>
-                    <li className='navLink navProjetos' onClick={() => {
-                        window.scrollTo(0, projetosSession.offsetTop - 20)
-                    }}>
+                    </a>
+                    <a href="#projetos" className='navLink navProjetos'>
                         <img src={projectIcon} alt="Inicio"/>
                         <span>Projetos</span>
-                    </li>
+                    </a>
                 </ul>
             </nav>
             <HiddenBar/>

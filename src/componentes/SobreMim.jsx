@@ -5,7 +5,7 @@ function SobreMim() {
     return (
         <>
             <section className="sobreMim">
-                <div>
+                <div id="sobreMim">
                     <h2>Meu Histórico Pessoal Como Programador</h2>
                     <div className="sobreDados">
                         <p>

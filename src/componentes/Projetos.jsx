@@ -9,7 +9,7 @@ function Projetos() {
     return (
         <>
             <section className="projetos">
-                <div>
+                <div id="projetos">
                     <h2>Meus Projetos Pessoais Recentes</h2>
                     <div className="groupProjetos">
                         <div className="projetoFront">
