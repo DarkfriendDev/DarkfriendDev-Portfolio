@@ -1,3 +1,4 @@
+import curriculoCV from '../assets/curriculoBryan.pdf'
 import download from '../assets/default-icons/download.svg'
 
 function SobreMim() {
@@ -25,7 +26,7 @@ function SobreMim() {
                                 <li>Região: São Paulo - SP</li>
                                 <li>Contato: bryancesar34@gmail.com</li>
                             </ul>
-                            <a href="../assets/curriculoBryan.pdf" download className="curriculo">
+                            <a href={curriculoCV} download="Currículo-Bryan.pdf" className="curriculo">
                                 <img src={download} alt="downloadCurriculo" />
                                 <p>Download CV</p>
                             </a>
