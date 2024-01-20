@@ -20,7 +20,7 @@ function Projetos() {
                                 </h3>
                                 <p>Web Aplicação de clima retorna a temperatura atual do local inserido</p>
                                 <a href="https://darkfrienddev.github.io/projects/clima/" target='_blank' rel="noreferrer" className="projetoBtn">
-                                    <img src={tagIcon} alt="downloadCurriculo" />
+                                    <img src={tagIcon} alt="tag" />
                                     <p>Visitar</p>
                                 </a>
                             </div>
@@ -34,7 +34,7 @@ function Projetos() {
                                 </h3>
                                 <p>Cronômetro Online minimalista e simples com Play, Pause e Reset</p>
                                 <a href="https://darkfrienddev.github.io/projects/cronometro/" target='_blank' rel="noreferrer" className="projetoBtn">
-                                    <img src={tagIcon} alt="downloadCurriculo" />
+                                    <img src={tagIcon} alt="tag" />
                                     <p>Visitar</p>
                                 </a>
                             </div>
@@ -46,9 +46,9 @@ function Projetos() {
                                 <h3 className="projetoTitulo">
                                     Tela de Login/Cadastro
                                 </h3>
-                                <p>Projeto que inclui tela de login e de cadastro com validação de dados</p>
-                                <a href="https://darkfrienddev.github.io/projects/login_cadastro/cadastro/" target='_blank' rel="noreferrer" className="projetoBtn">
-                                    <img src={tagIcon} alt="downloadCurriculo" />
+                                <p>Desenvolvido com React, com validação de email, senha. E primeira vez usando rotas</p>
+                                <a href="https://login-cadastro-sable.vercel.app/" target='_blank' rel="noreferrer" className="projetoBtn">
+                                    <img src={tagIcon} alt="tag" />
                                     <p>Visitar</p>
                                 </a>
                             </div>
@@ -62,7 +62,7 @@ function Projetos() {
                                 </h3>
                                 <p>To do List com função de adicionar e remover apenas. Feito com React</p>
                                 <a href="https://todolist-xi-rose.vercel.app/" target='_blank' rel="noreferrer" className="projetoBtn">
-                                    <img src={tagIcon} alt="downloadCurriculo" />
+                                    <img src={tagIcon} alt="tag" />
                                     <p>Visitar</p>
                                 </a>
                             </div>
