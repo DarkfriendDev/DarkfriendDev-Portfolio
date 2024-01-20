@@ -25,7 +25,7 @@ function SobreMim() {
                                 <li>Região: São Paulo - SP</li>
                                 <li>Contato: bryancesar34@gmail.com</li>
                             </ul>
-                            <a href="/src/assets/curriculoBryan.pdf" download className="curriculo">
+                            <a href="../assets/curriculoBryan.pdf" download className="curriculo">
                                 <img src={download} alt="downloadCurriculo" />
                                 <p>Download CV</p>
                             </a>
