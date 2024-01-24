@@ -1,0 +1,199 @@
+/* TECNOLOGIAS */
+
+.tecnologias {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--fundo-1);
+  user-select: none;
+  padding: 2em 0;
+}
+
+.tecnologias > div {
+  padding: 3rem 1.6rem;
+  width: 100%;
+  max-width: 1100px;
+}
+
+  
+  
+.tecnologias > div > h2 {
+    font-size: 1.2rem;
+  }
+
+  
+.tecnologias > div {
+  max-width: 1000px;
+
+}
+
+  
+.groupTechs {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tecIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(42, 42, 42);
+  height: 90px;
+  width: 115px;
+  border-radius: 1rem;
+  padding: 0.9rem;
+  outline: 1px solid rgba(128, 128, 128, 0);
+  transition: outline 0.5s ease-in-out;
+}
+
+.tecIcon p{
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.tecIcon:hover {
+  outline: 1px solid rgba(128, 128, 128, 0.29);
+}
+
+
+@media (min-width: 350px) {
+  .tecIcon {
+    height: 105px;
+    width: 125px;
+  }
+  
+}
+
+@media (min-width: 400px) {
+  .tecIcon {
+    height: 115px;
+    width: 145px;
+  }
+}
+
+@media (min-width: 450px) {
+  .tecIcon {
+    height: 100px;
+    width: 115px;
+  }
+  
+  
+}
+
+
+@media (min-width: 500px) {
+  .tecIcon {
+    height: 110px;
+    width: 125px;
+  }
+
+}
+
+
+@media (min-width: 600px) {
+  .tecnologias > div > h2 {
+    font-size: 1.5rem;
+  }
+
+  .tecIcon {
+    height: 140px;
+    width: 155px;
+  }
+
+  .tecIcon p{
+    font-size: 1rem; /* PADRAO: 0.8rem*/
+  }
+
+  .groupTechs {
+    gap: 2rem; /* PADRAO: 1rem */ 
+  }
+    
+  
+}
+
+
+@media (min-width: 700px) {
+
+  .tecIcon {
+    height: 150px;
+    width: 165px;
+  }
+
+
+
+  .groupTechs {
+    gap: 3rem;
+  }
+
+
+}
+
+
+
+@media (min-width: 750px) {
+  .tecnologias > div {
+    padding: 5rem 4rem; /* PADRÃO: 3rem 1.6rem */
+
+  }
+}
+
+@media (min-width: 800px) {
+  .tecnologias > div {
+    padding: 7rem 5rem; /* PADRÃO: 3rem 1.6rem */
+
+  }
+
+  .tecIcon {
+    height: 150px;
+    width: 170px;
+  }
+}
+
+
+@media (min-width: 850px) {
+  .tecnologias > div > h2 {
+  font-size: 1.8rem;
+  }
+
+
+  .tecIcon {
+    height: 155px;
+    width: 190px;
+  }
+
+}
+
+
+
+@media (min-width: 950px) {
+  .tecnologias > div {
+    padding: 7rem 8rem; /* PADRÃO: 3rem 1.6rem */
+
+  }
+
+  .tecIcon {
+    height: 145px;
+    width: 180px;
+  }
+
+}
+
+
+@media (min-width: 1000px) {
+  .tecIcon {
+    height: 145px;
+    width: 180px;
+  }
+
+
+
+
+
+
+}

@@ -1,10 +1,9 @@
 import './App.css'
-import './MediaQueries.css'
-import Nav from './componentes/Nav'
-import Header from './componentes/Header'
-import SobreMim from './componentes/SobreMim'
-import Tecnologias from './componentes/Tecnologias'
-import Projetos from './componentes/Projetos'
+import Nav from './componentes/Nav/Nav'
+import Header from './componentes/Header/Header'
+import SobreMim from './componentes/SobreMim/SobreMim'
+import Tecnologias from './componentes/Tecnologias/Tecnologias'
+import Projetos from './componentes/Projetos/Projetos'
 
 document.documentElement.style.scrollBehavior = "smooth";
 

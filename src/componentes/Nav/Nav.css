@@ -1,0 +1,189 @@
+#root {
+  scroll-behavior: smooth;
+}
+
+/* NAVEGATION */
+
+.navegation {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100vw;
+  padding: 0.4rem 1rem;
+  background-color: rgba(42, 42, 42, 0.563);
+  backdrop-filter: blur(10px);
+  border-bottom:1px solid var(--btn-dark);
+  z-index: 2;
+}
+
+
+.menuHamburguer {
+  all: unset;
+  border-radius: 50%;
+  padding: 10px;
+  height: 25px;
+  filter: invert(0.8);
+  cursor: pointer;
+}
+
+
+.menuHamburguer:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+
+.navList {
+  display: none;
+  list-style-type: none;
+  margin-left: 0.4rem;
+  width: 100%;
+  gap: 1.2rem;
+  font-weight: 500;
+  padding: 0.6rem 0;
+}
+
+.navLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  transition: color 0.5s, border 0.1s;
+  height: 2em;
+}
+
+.navLink.ativo {
+  color: rgb(0, 110, 255);
+  border-bottom: 2px solid;
+  border-radius: 2px;
+}
+
+
+.navLink:hover {
+  filter: brightness(80%);
+}
+
+.navList span {
+  text-indent: 5px;
+  font-size: 1.1em;
+
+}
+
+.iconNav {
+  font-size: 1.3em;
+}
+
+
+
+
+/* HiddenBar */
+
+.hiddenBar {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--fundo-2);
+  z-index: 4;
+  transform: translateX(-150vw);
+}
+
+.hiddenBar .navLink img {
+  height: 25px;
+}
+
+
+.hiddenBar .navLink span {
+  text-indent: 10px;
+}
+
+.closeMenu {
+  all: unset;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  border-radius: 50%;
+  padding: 10px;
+  height: 20px;
+  filter: invert(0.8);
+  cursor: pointer;
+}
+
+.closeMenu:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.hiddenBarNav {
+  width: 95%;
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  list-style: none;
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.hiddenBarNav li {
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: rgb(52, 52, 52);
+  cursor: pointer;
+}
+
+.hiddenBarNav li:hover {
+  user-select: none;
+  background-color: rgb(62, 62, 62);
+}
+
+
+
+
+
+@media (min-width: 500px) {
+
+  .hiddenBar {
+    display: none;
+  }
+
+  .menuHamburguer {
+    display: none;
+  }
+
+  .navList {
+    display: flex;
+  }
+}
+
+
+
+
+
+@media (min-width: 750px) {
+
+  .navList {
+    margin-left: 2rem;
+  }
+
+  
+.navList span {
+  text-indent: 5px;
+  font-size: 1.2em;
+
+}
+
+.iconNav {
+  font-size: 1.4em;
+}
+
+
+}
+

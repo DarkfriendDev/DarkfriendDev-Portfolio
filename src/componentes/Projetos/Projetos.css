@@ -1,0 +1,279 @@
+/* PROJETOS */
+
+.projetos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--fundo-2);
+  padding: 2em 0;
+}
+
+.projetos > div {
+  padding: 3rem 1.6rem;
+  width: 100%;
+  max-width: 1100px;
+}
+
+
+.projetos h2 {
+  font-size: 1.3rem;
+}
+
+.groupProjetos {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.projetoFront {
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem;
+  width: 240px;
+  height: 285px;
+  border-radius: 1rem;
+  outline: 1px solid var(--btn-dark);
+  position: relative;
+}
+
+.projetoFront > img {
+  height: 110px;
+  border-radius: 0.5rem;
+  outline: 1px solid var(--btn-dark);
+
+}
+
+.projetoTitulo {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.projetoDescricao p {
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+
+.projetoBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 92%;
+  left: 0.5rem;
+  bottom: 10px;
+  gap: 0.6rem;
+  margin-top: 1.2rem;
+  color: white;
+  border-radius: 1em;
+  padding: 0.4em 1.2em;
+  background-color: var(--btn-blue);
+  cursor: pointer;
+  transition: background 0.1s ease-in-out;
+
+}
+
+.projetoBtn:hover {
+  background-color: var(--btn-blue-hover);
+  color: white;
+  
+}
+
+.projetoBtn p {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 500;
+
+}
+
+.projetoBtn img {
+  position: relative;
+  height: 20px;
+  filter: invert(1);
+}
+
+
+@media (min-width: 350px) {
+  .projetoFront {
+    width: 270px; /* PADRAO: 240px*/
+    height: 300px; /* PADRAO: 285px */
+  }
+
+  .projetoFront > img {
+    height: 120px; /* PADRAO: 110px*/
+  }
+  
+  .projetoTitulo {
+    font-size: 1.1rem; /* PADRAO: 1rem*/
+  }
+  
+  .projetoDescricao p {
+    font-size: 1rem; /* PADRAO: 0.9rem*/
+  }
+  
+  
+}
+
+@media (min-width: 400px) {
+  .projetos > div > h2 {
+    text-align: center;
+  }
+
+}
+
+
+
+@media (min-width: 600px) {
+  .projetos > div > h2 {
+    font-size: 1.5rem;
+  }
+
+    
+  
+}
+
+@media (min-width: 620px) {
+  .projetos > div > h2 {
+    text-align: start;
+  }
+
+  .groupProjetos {
+    justify-content: space-between; /* PADRAO: CENTER*/
+  }
+
+  .projetoFront {
+    width: 248px;
+    height: 320px;
+  }
+
+}
+
+
+@media (min-width: 700px) {
+  .groupProjetos {
+    justify-content: center;
+  }
+
+  .projetoFront {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.7rem;
+    width: 100%;
+    height: 180px;
+    gap: 2rem;
+  }
+
+
+  .projetoFront > img {
+    height: 100%;
+    transition: scale 0.5s, transform 0.5s;
+  }
+
+
+  .projetoFront:nth-of-type(odd) > img:hover {
+    scale: 1.02;
+    transform: skewY(2deg);  
+  }
+
+  .projetoFront:nth-of-type(even) > img:hover {
+    scale: 1.02;
+    transform: skewY(-2deg);  
+  }
+
+
+  .projetoDescricao {
+    text-align: center;
+  }
+
+  .projetoBtn {
+    position: relative; /* PADRAO: absolute*/
+    left: 0;
+    width: 100%;
+    margin-top: 2.4rem;
+  }
+
+
+
+}
+
+
+
+@media (min-width: 750px) {
+  .projetos > div {
+    padding: 5rem 4rem; /* PADRÃO: 3rem 1.6rem */
+
+  }
+}
+
+@media (min-width: 800px) {
+  .projetos > div {
+    padding: 7rem 5rem; /* PADRÃO: 3rem 1.6rem */
+
+  }
+
+}
+
+
+@media (min-width: 850px) {
+  .projetos > div > h2 {
+    font-size: 1.8rem;
+  }
+
+
+  .projetoFront {
+    height: 200px;
+  }
+
+  .projetoBtn {
+    margin-top: 3.3rem;
+  }
+
+  .projetoTitulo {
+    font-size: 1.2rem; /* PADRAO: 1rem*/
+  }
+
+  .projetoDescricao p {
+    font-size: 1.1rem; /* PADRAO: 0.9rem*/
+  }
+}
+
+
+
+@media (min-width: 950px) {
+  .projetos > div {
+    padding: 7rem 8rem; /* PADRÃO: 3rem 1.6rem */
+
+  }
+
+}
+
+
+@media (min-width: 1000px) {
+
+  .projetos > div {
+    padding: 10rem 10rem; /* PADRÃO: 3rem 1.6rem */
+
+  }
+
+
+  .projetoFront:nth-child(even) {
+    flex-direction: row-reverse;
+    align-self: flex-end;
+  }
+
+  .projetoFront {
+    width: 800px;
+
+  }
+
+
+
+}
+
