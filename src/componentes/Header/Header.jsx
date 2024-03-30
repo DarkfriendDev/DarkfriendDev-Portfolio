@@ -1,4 +1,4 @@
-import avatar from './assetsHeader/bf avatar.png'
+import avatar from './assetsHeader/bryan-perfil.jpeg'
 import github from './assetsHeader/github.svg'
 import linkedin from './assetsHeader/linkedin.svg'
 
@@ -17,7 +17,7 @@ function Header() {
                 <div>
                     <img src={avatar} alt="avatar" className='avatar'/>
                     <h1>Bryan Cesar</h1>
-                    <h2>Desenvolvedor Web Front-End</h2>
+                    <h2>Desenvolvedor Front-End</h2>
                     <div className="redes">
                         <a href='https://github.com/DarkfriendDev/' rel='noreferrer' target='_blank' className='github'>
                             <p>Github</p>
