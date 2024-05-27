@@ -32,15 +32,13 @@
   font-weight: 500;
 }
 
-
 @keyframes avatarBrightness {
   from {
     box-shadow: 0px 0px 20px rgba(0, 83, 191, 0.0222);
   }
 
   to {
-    box-shadow: 0px 0px 20px rgba(0, 83, 191, 0.0422);;
-
+    box-shadow: 0px 0px 20px rgba(0, 83, 191, 0.0422);
   }
 }
 
@@ -50,7 +48,6 @@
   width: 130px;
 }
 
-
 .redes {
   display: flex;
   flex-direction: column;
@@ -59,12 +56,12 @@
   width: 100%;
 }
 
-
-.github, .linkedin {
+.github,
+.linkedin {
   all: unset;
   display: flex;
   justify-content: center;
-  border-radius: 30px;
+  border-radius: 5px;
   padding: 10px;
   height: 28px;
   cursor: pointer;
@@ -92,8 +89,6 @@
   background-color: var(--btn-dark-hover);
 }
 
-
-
 /* SOBRE MIM  */
 
 .sobreMim {
@@ -110,9 +105,8 @@
 .sobreDados p {
   margin-top: 1rem;
   font-weight: 400;
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
-
 
 .dados {
   display: flex;
@@ -140,15 +134,12 @@
   outline: 1px solid var(--btn-dark);
   cursor: pointer;
   transition: background 0.1s ease-in-out;
-
 }
 
 .curriculo:hover {
   background-color: var(--btn-dark-hover);
   color: white;
-  
 }
-
 
 @keyframes downloadIcon {
   0% {
@@ -162,19 +153,16 @@
   100% {
     top: 0px;
   }
-  
 }
 
 .curriculo:hover > img {
-  animation: downloadIcon 0.4s ;
-
+  animation: downloadIcon 0.4s;
 }
 
 .curriculo p {
   margin: 0;
   font-size: 1em;
   font-weight: 500;
-
 }
 
 .curriculo img {
@@ -183,12 +171,9 @@
   filter: invert(1);
 }
 
-
-
 @media (min-width: 700px) {
   .header {
     padding: 8rem 2rem 7rem 2rem; /* PADRAO:7rem 2rem 3rem 2rem; */
-
   }
 
   .redes {
@@ -199,20 +184,14 @@
     width: 100%;
   }
 
-  .github, .linkedin {
+  .github,
+  .linkedin {
     padding: 10px 30px; /* PADRAO: 10px*/
   }
-
 }
-
-
-
 
 @media (min-width: 950px) {
   .header {
     padding: 9rem 2rem 12rem 2rem; /* PADRAO:7rem 2rem 3rem 2rem; */
-
   }
-
 }
-
