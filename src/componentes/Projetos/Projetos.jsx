@@ -37,9 +37,9 @@ function Projetos() {
 
             <CadaProjeto
               titulo="Lista de Tarefas"
-              descricao="To do List com função de adicionar e remover apenas. Feito com React"
+              descricao="To do List simples. Desenvolvido com React e TypeScript"
               img={listaTarefas}
-              link="https://darkfrienddev-to-do-list.netlify.app/"
+              link="https://darkfriendtasklsit.netlify.app/"
             />
           </div>
         </div>
