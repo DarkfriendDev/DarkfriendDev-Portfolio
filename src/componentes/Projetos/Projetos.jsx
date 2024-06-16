@@ -1,7 +1,6 @@
 import notesfriend from "./assetsProjetos/notesFriendProjeto.png";
-import cronometro from "./assetsProjetos/cronometroProjeto.png";
+import shoppingCart from "./assetsProjetos/carrinhodeCompraProjeto.png";
 import listaTarefas from "./assetsProjetos/tasklistProjeto.png";
-import ecommercer from "./assetsProjetos/e-commerceProjeto.png";
 
 import CadaProjeto from "./CadaProjeto";
 import "./Projetos.css";
@@ -22,17 +21,10 @@ function Projetos() {
             />
 
             <CadaProjeto
-              titulo="E-commerce Page"
-              descricao="Página única de E-commerce de camisetas consumindo api local"
-              img={ecommercer}
-              link="https://darkfrienddev-e-commerce.netlify.app/"
-            />
-
-            <CadaProjeto
-              titulo="Cronometro"
-              descricao="Cronômetro Online minimalista e simples com Play, Pause e Reset"
-              img={cronometro}
-              link="https://darkfrienddev-cronometro.netlify.app/"
+              titulo="Carrinho de Compra"
+              descricao="Página de E-commerce de calçados com carrinho de compra"
+              img={shoppingCart}
+              link="https://shopping-cart-seven-orcin.vercel.app/"
             />
 
             <CadaProjeto
