@@ -37,9 +37,9 @@ function Projetos() {
 
             <CadaProjeto
               titulo="NexCell"
-              descricao="Landing Page de Cursaos de Tecnologia da Informação"
+              descricao="Landing Page de Cursos de Tecnologia da Informação"
               img={nexCell}
-              link="https://darkfriendtasklsit.netlify.app/"
+              link="https://nexcell.netlify.app/"
             />
           </div>
         </div>
