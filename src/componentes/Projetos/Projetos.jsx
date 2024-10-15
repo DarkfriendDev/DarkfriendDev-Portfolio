@@ -1,6 +1,7 @@
 import notesfriend from "./assetsProjetos/notesFriendProjeto.png";
 import shoppingCart from "./assetsProjetos/carrinhodeCompraProjeto.png";
 import listaTarefas from "./assetsProjetos/tasklistProjeto.png";
+import nexCell from "./assetsProjetos/NexCellProjeto.png";
 
 import CadaProjeto from "./CadaProjeto";
 import "./Projetos.css";
@@ -37,7 +38,7 @@ function Projetos() {
             <CadaProjeto
               titulo="NexCell"
               descricao="Landing Page de Cursaos de Tecnologia da Informação"
-              img={listaTarefas}
+              img={nexCell}
               link="https://darkfriendtasklsit.netlify.app/"
             />
           </div>
