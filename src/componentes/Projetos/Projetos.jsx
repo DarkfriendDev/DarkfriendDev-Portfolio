@@ -33,6 +33,13 @@ function Projetos() {
               img={listaTarefas}
               link="https://darkfriendtasklsit.netlify.app/"
             />
+
+            <CadaProjeto
+              titulo="NexCell"
+              descricao="Landing Page de Cursaos de Tecnologia da Informação"
+              img={listaTarefas}
+              link="https://darkfriendtasklsit.netlify.app/"
+            />
           </div>
         </div>
       </section>
