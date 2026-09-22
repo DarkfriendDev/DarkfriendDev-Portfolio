@@ -1,4 +1,4 @@
-import avatar from './assetsHeader/bryan-perfil.jpeg'
+import avatar from './assetsHeader/bryan-perfil.jpg'
 import github from './assetsHeader/github.svg'
 import linkedin from './assetsHeader/linkedin.svg'
 
